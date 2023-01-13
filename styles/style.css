@@ -1,6 +1,45 @@
 /* fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@500&family=Work+Sans&display=swap');
+/* --------navigation section--------------- */
 
+/* nav{
+   
+    padding-top: 26px;
+    padding-bottom: 17px;
+} */
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    height: 94px;
+    width: 100%;
+    background: #562EFF;
+    align-items: center;
+}
+.banner{
+    padding-top: 15px;
+
+}
+.idea-banner{
+    display: flex;
+    gap: 15px;
+}
+.idea-logo{
+    width: 40.42px;
+    height: 51px;
+}
+.home-banner{
+    display: flex;
+    gap: 36px;
+}
+.idea-banner p,.home-banner p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/* ----------------body----------- */
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
